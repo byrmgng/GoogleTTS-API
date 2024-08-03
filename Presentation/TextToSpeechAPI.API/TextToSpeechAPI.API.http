@@ -1,0 +1,6 @@
+@TextToSpeechAPI.API_HostAddress = http://localhost:5042
+
+GET {{TextToSpeechAPI.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

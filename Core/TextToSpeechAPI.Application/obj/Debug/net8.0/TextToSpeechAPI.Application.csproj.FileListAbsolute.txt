@@ -1,0 +1,15 @@
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Application\bin\Debug\net8.0\TextToSpeechAPI.Application.deps.json
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Application\bin\Debug\net8.0\TextToSpeechAPI.Application.dll
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Application\bin\Debug\net8.0\TextToSpeechAPI.Application.pdb
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Application\bin\Debug\net8.0\TextToSpeechAPI.Domain.dll
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Application\bin\Debug\net8.0\TextToSpeechAPI.Domain.pdb
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Application\obj\Debug\net8.0\TextToSpeechAPI.Application.csproj.AssemblyReference.cache
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Application\obj\Debug\net8.0\TextToSpeechAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Application\obj\Debug\net8.0\TextToSpeechAPI.Application.AssemblyInfoInputs.cache
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Application\obj\Debug\net8.0\TextToSpeechAPI.Application.AssemblyInfo.cs
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Application\obj\Debug\net8.0\TextToSpeechAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Application\obj\Debug\net8.0\TextToSp.F7FCBE85.Up2Date
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Application\obj\Debug\net8.0\TextToSpeechAPI.Application.dll
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Application\obj\Debug\net8.0\refint\TextToSpeechAPI.Application.dll
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Application\obj\Debug\net8.0\TextToSpeechAPI.Application.pdb
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Application\obj\Debug\net8.0\ref\TextToSpeechAPI.Application.dll

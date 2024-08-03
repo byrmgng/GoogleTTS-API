@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "JAlDM/VO+gpzDzoqfoaPqx4615/G3xWzqABwhf+Xndw=",
+  "Source": "TextToSpeechAPI.API",
+  "BasePath": "_content/TextToSpeechAPI.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

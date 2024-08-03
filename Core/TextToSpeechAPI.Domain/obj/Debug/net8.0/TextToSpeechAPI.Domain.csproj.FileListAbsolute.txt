@@ -1,0 +1,12 @@
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Domain\bin\Debug\net8.0\TextToSpeechAPI.Domain.deps.json
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Domain\bin\Debug\net8.0\TextToSpeechAPI.Domain.dll
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Domain\bin\Debug\net8.0\TextToSpeechAPI.Domain.pdb
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Domain\obj\Debug\net8.0\TextToSpeechAPI.Domain.csproj.AssemblyReference.cache
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Domain\obj\Debug\net8.0\TextToSpeechAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Domain\obj\Debug\net8.0\TextToSpeechAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Domain\obj\Debug\net8.0\TextToSpeechAPI.Domain.AssemblyInfo.cs
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Domain\obj\Debug\net8.0\TextToSpeechAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Domain\obj\Debug\net8.0\TextToSpeechAPI.Domain.dll
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Domain\obj\Debug\net8.0\refint\TextToSpeechAPI.Domain.dll
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Domain\obj\Debug\net8.0\TextToSpeechAPI.Domain.pdb
+C:\Users\Bayram\Desktop\TTS Dosyaları\TTS BOOK\TTSWEBAPI\TextToSpeechAPI\Core\TextToSpeechAPI.Domain\obj\Debug\net8.0\ref\TextToSpeechAPI.Domain.dll

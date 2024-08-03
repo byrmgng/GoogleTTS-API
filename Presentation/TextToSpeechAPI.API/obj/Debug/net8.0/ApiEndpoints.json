@@ -1,0 +1,86 @@
+[
+  {
+    "ContainingType": "TextToSpeechAPI.API.Controllers.TTSController",
+    "Method": "GetSpeech",
+    "RelativePath": "api/TTS/GetSpeech",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vmSpeech",
+        "Type": "TextToSpeechAPI.Application.ViewModels.User.VM_Speech",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TextToSpeechAPI.API.Controllers.TTSController",
+    "Method": "GetVoicer",
+    "RelativePath": "api/TTS/GetVoicer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TextToSpeechAPI.API.Controllers.UserController",
+    "Method": "CreateUser",
+    "RelativePath": "api/User/CreateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createAppUserCommandRequest",
+        "Type": "TextToSpeechAPI.Application.Features.Commands.AppUserCommands.CreateAppUserCommands.CreateAppUserCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TextToSpeechAPI.API.Controllers.UserController",
+    "Method": "GetUserInfo",
+    "RelativePath": "api/User/GetUserInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TextToSpeechAPI.API.Controllers.UserController",
+    "Method": "LoginUser",
+    "RelativePath": "api/User/LoginUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginUserCommandRequest",
+        "Type": "TextToSpeechAPI.Application.Features.Commands.AppUserCommands.LoginAppUserCommands.LoginUserCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TextToSpeechAPI.API.Controllers.UserController",
+    "Method": "RefreshTokenLoginCustomer",
+    "RelativePath": "api/User/RefreshTokenLoginCustomer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshTokenLoginRequest",
+        "Type": "TextToSpeechAPI.Application.Features.Commands.AppUserCommands.RefreshTokenLoginCommands.RefreshTokenLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

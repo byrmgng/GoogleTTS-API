@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E7C21858-CAE7-45CA-A01A-63C1D1DAB348}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1279EB70-BEA8-4A09-B112-4BE6501957C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{481DF939-2A5A-4992-86E9-65B171DE8D83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextToSpeechAPI.Domain", "Core\TextToSpeechAPI.Domain\TextToSpeechAPI.Domain.csproj", "{F0A12AEC-DD4B-4B26-8746-1E6270F5B2E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextToSpeechAPI.Application", "Core\TextToSpeechAPI.Application\TextToSpeechAPI.Application.csproj", "{1CB42C61-FFC5-4607-8211-4C0A0E3B0984}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextToSpeechAPI.Infrastructure", "Infrastructure\TextToSpeechAPI.Infrastructure\TextToSpeechAPI.Infrastructure.csproj", "{18D8FACA-9915-4795-9BF6-0A100BBEE710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextToSpeechAPI.Persistence", "Infrastructure\TextToSpeechAPI.Persistence\TextToSpeechAPI.Persistence.csproj", "{C7984FFD-20EA-4822-AA4D-1B4E49CFE390}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextToSpeechAPI.API", "Presentation\TextToSpeechAPI.API\TextToSpeechAPI.API.csproj", "{978D9B44-609A-4CA1-9896-FE3F222E7F35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0A12AEC-DD4B-4B26-8746-1E6270F5B2E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A12AEC-DD4B-4B26-8746-1E6270F5B2E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A12AEC-DD4B-4B26-8746-1E6270F5B2E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A12AEC-DD4B-4B26-8746-1E6270F5B2E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB42C61-FFC5-4607-8211-4C0A0E3B0984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB42C61-FFC5-4607-8211-4C0A0E3B0984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB42C61-FFC5-4607-8211-4C0A0E3B0984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB42C61-FFC5-4607-8211-4C0A0E3B0984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D8FACA-9915-4795-9BF6-0A100BBEE710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D8FACA-9915-4795-9BF6-0A100BBEE710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D8FACA-9915-4795-9BF6-0A100BBEE710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D8FACA-9915-4795-9BF6-0A100BBEE710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7984FFD-20EA-4822-AA4D-1B4E49CFE390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7984FFD-20EA-4822-AA4D-1B4E49CFE390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7984FFD-20EA-4822-AA4D-1B4E49CFE390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7984FFD-20EA-4822-AA4D-1B4E49CFE390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{978D9B44-609A-4CA1-9896-FE3F222E7F35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{978D9B44-609A-4CA1-9896-FE3F222E7F35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{978D9B44-609A-4CA1-9896-FE3F222E7F35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{978D9B44-609A-4CA1-9896-FE3F222E7F35}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F0A12AEC-DD4B-4B26-8746-1E6270F5B2E0} = {E7C21858-CAE7-45CA-A01A-63C1D1DAB348}
+		{1CB42C61-FFC5-4607-8211-4C0A0E3B0984} = {E7C21858-CAE7-45CA-A01A-63C1D1DAB348}
+		{18D8FACA-9915-4795-9BF6-0A100BBEE710} = {1279EB70-BEA8-4A09-B112-4BE6501957C0}
+		{C7984FFD-20EA-4822-AA4D-1B4E49CFE390} = {1279EB70-BEA8-4A09-B112-4BE6501957C0}
+		{978D9B44-609A-4CA1-9896-FE3F222E7F35} = {481DF939-2A5A-4992-86E9-65B171DE8D83}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {199AB00A-8C62-43DC-B51F-E7BC11CCF50C}
+	EndGlobalSection
+EndGlobal

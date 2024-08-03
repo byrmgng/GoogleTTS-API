@@ -1,0 +1,419 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Presentation\\TextToSpeechAPI.API\\TextToSpeechAPI.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Core\\TextToSpeechAPI.Application\\TextToSpeechAPI.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Core\\TextToSpeechAPI.Application\\TextToSpeechAPI.Application.csproj",
+        "projectName": "TextToSpeechAPI.Application",
+        "projectPath": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Core\\TextToSpeechAPI.Application\\TextToSpeechAPI.Application.csproj",
+        "packagesPath": "C:\\Users\\Bayram\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Core\\TextToSpeechAPI.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bayram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Core\\TextToSpeechAPI.Domain\\TextToSpeechAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Core\\TextToSpeechAPI.Domain\\TextToSpeechAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Google.Cloud.TextToSpeech.V1": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            },
+            "MediatR.Extensions.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Core\\TextToSpeechAPI.Domain\\TextToSpeechAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Core\\TextToSpeechAPI.Domain\\TextToSpeechAPI.Domain.csproj",
+        "projectName": "TextToSpeechAPI.Domain",
+        "projectPath": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Core\\TextToSpeechAPI.Domain\\TextToSpeechAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\Bayram\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Core\\TextToSpeechAPI.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bayram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Infrastructure\\TextToSpeechAPI.Infrastructure\\TextToSpeechAPI.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Infrastructure\\TextToSpeechAPI.Infrastructure\\TextToSpeechAPI.Infrastructure.csproj",
+        "projectName": "TextToSpeechAPI.Infrastructure",
+        "projectPath": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Infrastructure\\TextToSpeechAPI.Infrastructure\\TextToSpeechAPI.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Bayram\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Infrastructure\\TextToSpeechAPI.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bayram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Core\\TextToSpeechAPI.Application\\TextToSpeechAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Core\\TextToSpeechAPI.Application\\TextToSpeechAPI.Application.csproj"
+              },
+              "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Infrastructure\\TextToSpeechAPI.Persistence\\TextToSpeechAPI.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Infrastructure\\TextToSpeechAPI.Persistence\\TextToSpeechAPI.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Google.Cloud.TextToSpeech.V1": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Infrastructure\\TextToSpeechAPI.Persistence\\TextToSpeechAPI.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Infrastructure\\TextToSpeechAPI.Persistence\\TextToSpeechAPI.Persistence.csproj",
+        "projectName": "TextToSpeechAPI.Persistence",
+        "projectPath": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Infrastructure\\TextToSpeechAPI.Persistence\\TextToSpeechAPI.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Bayram\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Infrastructure\\TextToSpeechAPI.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bayram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Core\\TextToSpeechAPI.Application\\TextToSpeechAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Core\\TextToSpeechAPI.Application\\TextToSpeechAPI.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Presentation\\TextToSpeechAPI.API\\TextToSpeechAPI.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Presentation\\TextToSpeechAPI.API\\TextToSpeechAPI.API.csproj",
+        "projectName": "TextToSpeechAPI.API",
+        "projectPath": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Presentation\\TextToSpeechAPI.API\\TextToSpeechAPI.API.csproj",
+        "packagesPath": "C:\\Users\\Bayram\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Presentation\\TextToSpeechAPI.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bayram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Infrastructure\\TextToSpeechAPI.Infrastructure\\TextToSpeechAPI.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Infrastructure\\TextToSpeechAPI.Infrastructure\\TextToSpeechAPI.Infrastructure.csproj"
+              },
+              "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Infrastructure\\TextToSpeechAPI.Persistence\\TextToSpeechAPI.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Bayram\\Desktop\\TTS Dosyaları\\TTS BOOK\\TTSWEBAPI\\TextToSpeechAPI\\Infrastructure\\TextToSpeechAPI.Persistence\\TextToSpeechAPI.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
